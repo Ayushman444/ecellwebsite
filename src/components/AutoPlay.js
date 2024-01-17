@@ -84,16 +84,16 @@ export default class AutoPlay extends Component {
     };
 
     return (
-      <div className="w-[100%] mx-auto h-[200px] bg-gradient-to-r from-gray-900 to-gray-800 lg:h-[540px] md:h-[350px]   md:pt-0 flex flex-col justify-center items-center space-y-4 lg:space-y-10 md:space-y-10 ">
+      <div className="w-[100%] mx-auto h-[200px] bg-gray-900 lg:h-[540px] md:h-[350px]   md:pt-0 flex flex-col justify-center items-center space-y-4 lg:space-y-10 md:space-y-10 ">
         <div className="mt-0 ">
           <h2
             ref={this.headingRef}
-            className="mx-auto lg:text-5xl md:text-3xl font-bold opacity-0 mt-0 text-white"
+            className="mx-auto lg:text-5xl md:text-3xl font-bold opacity-0 mt-0 text-white "
           >
             STARTUPS FROM MNNIT
           </h2>
         </div>
-        <div className="carousel-container  bg-gray-900 border rounded-lg h-[100px]  lg:h-[60%] w-[95%] mx-auto  flex flex-col ">
+        <div className="carousel-container  bg-gray-900  rounded-lg h-[100px]  lg:h-[60%] w-[95%] mx-auto  flex flex-col ">
           <Slider
             {...settings}
             className="w-[90%] mx-auto my-auto  bg-gray-900"
